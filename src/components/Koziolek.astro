@@ -1,0 +1,79 @@
+---
+// Koziołek z nagłówka: po najechaniu (albo dotknięciu) podskakuje i robi zdziwioną minę.
+---
+<span class="goat" aria-hidden="true">
+  <svg viewBox="0 0 72 72" width="72" height="72">
+    <g class="goat-marks" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
+      <path d="M61 9l3-6M66 15l6-3M54 6l-1-5" />
+    </g>
+    <g class="goat-body">
+      <!-- ogon -->
+      <path d="M13 37q-7-3-6-10q5 1 8 7z" fill="currentColor" />
+      <!-- nogi -->
+      <g fill="currentColor">
+        <rect x="16" y="46" width="4" height="18" rx="2" />
+        <rect x="23" y="46" width="4" height="18" rx="2" />
+        <rect x="35" y="46" width="4" height="18" rx="2" />
+        <rect x="42" y="46" width="4" height="18" rx="2" />
+      </g>
+      <!-- tułów i szyja -->
+      <ellipse cx="30" cy="42" rx="19" ry="11.5" fill="currentColor" />
+      <path d="M41 40L50 27" stroke="currentColor" stroke-width="11" stroke-linecap="round" />
+      <!-- rogi -->
+      <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round">
+        <path d="M47 19q-2-10-12-11" />
+        <path d="M52 18q0-9-8-13" />
+      </g>
+      <!-- ucho -->
+      <ellipse class="goat-ear" cx="42" cy="24" rx="6" ry="2.8" transform="rotate(-20 42 24)" fill="currentColor" />
+      <!-- głowa, pysk, bródka -->
+      <ellipse cx="52" cy="26" rx="9" ry="8.5" fill="currentColor" />
+      <ellipse cx="59" cy="29.5" rx="6" ry="5" fill="currentColor" />
+      <path d="M54 33l1.5 10l4-8.5z" fill="currentColor" />
+      <!-- oko -->
+      <circle class="goat-eye" cx="54" cy="23.5" r="2.3" fill="var(--paper)" />
+      <circle class="goat-pupil" cx="54.6" cy="23.5" r="1" fill="currentColor" />
+      <!-- zdziwiony pyszczek -->
+      <ellipse class="goat-mouth" cx="61.5" cy="31.5" rx="1.6" ry="2" fill="var(--paper)" />
+    </g>
+  </svg>
+</span>
+
+<script>
+  // Na ekranach dotykowych nie ma najechania — reagujemy na dotknięcie.
+  for (const el of document.querySelectorAll<HTMLElement>('.goat')) {
+    el.addEventListener('pointerdown', () => {
+      el.classList.remove('is-up');
+      void el.offsetWidth;
+      el.classList.add('is-up');
+      setTimeout(() => el.classList.remove('is-up'), 900);
+    });
+  }
+</script>
+
+<style>
+  .goat { display: inline-block; line-height: 0; cursor: default; margin-bottom: 1.25rem; -webkit-tap-highlight-color: transparent; }
+  .goat svg { overflow: visible; width: 4.5rem; height: 4.5rem; }
+  .goat-body { transform-box: fill-box; transform-origin: 50% 100%; }
+  .goat-eye, .goat-pupil, .goat-ear { transform-box: fill-box; transform-origin: center; transition: transform 0.12s ease-out; }
+  .goat-mouth, .goat-marks { opacity: 0; transition: opacity 0.1s ease-out; }
+
+  .goat:hover .goat-eye, .goat.is-up .goat-eye { transform: scale(1.75); }
+  .goat:hover .goat-pupil, .goat.is-up .goat-pupil { transform: scale(0.9); }
+  .goat:hover .goat-ear, .goat.is-up .goat-ear { transform: rotate(-28deg) translateY(-1px); }
+  .goat:hover .goat-mouth, .goat.is-up .goat-mouth,
+  .goat:hover .goat-marks, .goat.is-up .goat-marks { opacity: 1; }
+  .goat:hover .goat-body, .goat.is-up .goat-body { animation: hop 0.6s cubic-bezier(0.3, 0, 0.3, 1); }
+
+  @keyframes hop {
+    0% { transform: none; }
+    18% { transform: scale(1.08, 0.88); }
+    50% { transform: translateY(-18px) scale(0.95, 1.08) rotate(-4deg); }
+    78% { transform: scale(1.07, 0.92); }
+    100% { transform: none; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .goat:hover .goat-body, .goat.is-up .goat-body { animation: none; }
+  }
+  @media print { .goat { display: none; } }
+</style>

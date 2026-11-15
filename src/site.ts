@@ -6,6 +6,5 @@ export const site = {
   email: 'kontakt@example.com',
   nav: [
     { href: '/zadania/', label: 'Zadania' },
-    { href: '/o-mnie/', label: 'O mnie' },
   ],
 };

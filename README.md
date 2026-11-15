@@ -30,7 +30,8 @@ Folder `dist/` w tej paczce jest już zbudowany — możesz go wgrać od razu.
 | --- | --- |
 | Imię, e-mail, menu | `src/site.ts` |
 | Tekst na stronie głównej | `src/pages/index.astro` |
-| Strona „O mnie” | `tresc/o-mnie.md` |
+| Sekcja „O mnie” na stronie głównej | `tresc/o-mnie.md` |
+| Koziołek | `src/components/Koziolek.astro` |
 | Serie zadań | `tresc/zadania/*.md` |
 | Kolory i fonty | początek `src/styles/global.css` |
 

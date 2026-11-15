@@ -3,10 +3,13 @@ import Base from '../layouts/Base.astro';
 import ListaSerii from '../layouts/ListaSerii.astro';
 import { serie } from '../lib/serie';
 import { site } from '../site';
+import Koziolek from '../components/Koziolek.astro';
+import { Content as OMnie } from '../../tresc/o-mnie.md';
 const najnowsze = serie.slice(0, 5);
 ---
 <Base>
   <section class="hero">
+    <Koziolek />
     <h1>Cześć, tu {site.name}. Układam serie zadań dla uczniów, którzy lubią pomyśleć nad jednym problemem trochę dłużej.</h1>
     <p class="hero-lead">
       Każda seria to kilka zadań wokół jednego pomysłu, ułożonych od rozgrzewki do czegoś
@@ -23,14 +26,10 @@ const najnowsze = serie.slice(0, 5);
     <ListaSerii serie={najnowsze} />
   </section>
 
-  <section class="block split">
+  <section class="block split" id="o-mnie">
     <h2>O mnie</h2>
-    <div class="split-body">
-      <p>
-        Uczę, układam zadania i lubię, kiedy rozwiązanie mieści się w trzech linijkach,
-        choć szukało się go trzy dni.
-      </p>
-      <p><a class="link" href="/o-mnie/">Więcej o mnie</a></p>
+    <div class="prose">
+      <OMnie />
     </div>
   </section>
 
