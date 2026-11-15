@@ -1,0 +1,24 @@
+---
+import { type Seria, ileZadan, dataPL, dataISO } from '../lib/serie';
+interface Props { serie: Seria[] }
+const { serie } = Astro.props;
+---
+{serie.length === 0 ? (
+  <p class="empty">Nie ma jeszcze żadnej serii. Dodaj plik .md do folderu tresc/zadania/.</p>
+) : (
+  <ul class="rows">
+    {serie.map((s) => (
+      <li>
+        <a class="row" href={`/zadania/${s.slug}/`}>
+          <span class="row-nr">Seria {s.numer}</span>
+          <time class="row-date" datetime={dataISO(s.data)}>{dataPL(s.data)}</time>
+          <span class="row-main">
+            <span class="row-title">{s.tytul}</span>
+            <span class="row-desc">{s.opis}</span>
+          </span>
+          <span class="row-count">{ileZadan(s.liczbaZadan)}</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+)}

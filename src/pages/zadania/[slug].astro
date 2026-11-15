@@ -1,0 +1,52 @@
+---
+import Base from '../../layouts/Base.astro';
+import { serie, ileZadan, dataPL, dataISO } from '../../lib/serie';
+
+export function getStaticPaths() {
+  return serie.map((s) => ({ params: { slug: s.slug } }));
+}
+const s = serie.find((x) => x.slug === Astro.params.slug)!;
+const { Content } = s;
+// serie są posortowane malejąco po numerze
+const i = serie.indexOf(s);
+const nowsza = serie[i - 1];
+const starsza = serie[i + 1];
+---
+<Base title={`Seria ${s.numer}: ${s.tytul}`} description={s.opis}>
+  <article class="sheet">
+    <header class="page-head">
+      <p class="sheet-nr">Seria {s.numer}</p>
+      <h1>{s.tytul}</h1>
+      {s.opis && <p class="hero-lead">{s.opis}</p>}
+    </header>
+
+    <div class="sheet-grid">
+      <aside class="sheet-meta">
+        <dl>
+          <div><dt>Data</dt><dd><time datetime={dataISO(s.data)}>{dataPL(s.data)}</time></dd></div>
+          {s.poziom && <div><dt>Poziom</dt><dd>{s.poziom}</dd></div>}
+          <div><dt>Liczba zadań</dt><dd>{s.liczbaZadan}</dd></div>
+        </dl>
+        <button class="link print-btn" type="button" onclick="window.print()">Drukuj serię</button>
+      </aside>
+      <div class="prose tasks">
+        <Content />
+      </div>
+    </div>
+
+    <nav class="pager" aria-label="Sąsiednie serie">
+      {starsza ? (
+        <a href={`/zadania/${starsza.slug}/`}>
+          <span class="pager-dir">Poprzednia seria</span>
+          <span class="pager-title">Seria {starsza.numer}: {starsza.tytul}</span>
+        </a>
+      ) : <span />}
+      {nowsza ? (
+        <a class="pager-next" href={`/zadania/${nowsza.slug}/`}>
+          <span class="pager-dir">Następna seria</span>
+          <span class="pager-title">Seria {nowsza.numer}: {nowsza.tytul}</span>
+        </a>
+      ) : <span />}
+    </nav>
+  </article>
+</Base>

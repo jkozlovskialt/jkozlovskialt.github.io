@@ -1,0 +1,15 @@
+---
+import Base from '../layouts/Base.astro';
+import { Content, frontmatter } from '../../tresc/o-mnie.md';
+---
+<Base title="O mnie" description={frontmatter.opis}>
+  <section class="page-head">
+    <h1>{frontmatter.naglowek}</h1>
+  </section>
+  <div class="sheet-grid">
+    <span></span>
+    <div class="prose">
+      <Content />
+    </div>
+  </div>
+</Base>

@@ -1,0 +1,17 @@
+---
+import Base from '../../layouts/Base.astro';
+import ListaSerii from '../../layouts/ListaSerii.astro';
+import { serie, ileZadan } from '../../lib/serie';
+const razem = serie.reduce((a, s) => a + s.liczbaZadan, 0);
+---
+<Base title="Zadania" description="Wszystkie serie zadań.">
+  <section class="page-head">
+    <h1>Serie zadań</h1>
+    <p class="hero-lead">
+      Od najnowszej do najstarszej. Łącznie {ileZadan(razem)} w {serie.length} {serie.length === 1 ? 'serii' : 'seriach'}.
+    </p>
+  </section>
+  <section class="block">
+    <ListaSerii serie={serie} />
+  </section>
+</Base>

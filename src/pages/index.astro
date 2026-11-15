@@ -1,0 +1,46 @@
+---
+import Base from '../layouts/Base.astro';
+import ListaSerii from '../layouts/ListaSerii.astro';
+import { serie } from '../lib/serie';
+import { site } from '../site';
+const najnowsze = serie.slice(0, 5);
+---
+<Base>
+  <section class="hero">
+    <h1>Cześć, tu {site.name}. Układam serie zadań dla uczniów, którzy lubią pomyśleć nad jednym problemem trochę dłużej.</h1>
+    <p class="hero-lead">
+      Każda seria to kilka zadań wokół jednego pomysłu, ułożonych od rozgrzewki do czegoś
+      trudniejszego. Przy części zadań są wskazówki — zajrzyj do nich dopiero wtedy,
+      gdy naprawdę utkniesz.
+    </p>
+  </section>
+
+  <section class="block">
+    <div class="block-head">
+      <h2>Najnowsze serie</h2>
+      <a class="link" href="/zadania/">Wszystkie serie</a>
+    </div>
+    <ListaSerii serie={najnowsze} />
+  </section>
+
+  <section class="block split">
+    <h2>O mnie</h2>
+    <div class="split-body">
+      <p>
+        Uczę, układam zadania i lubię, kiedy rozwiązanie mieści się w trzech linijkach,
+        choć szukało się go trzy dni.
+      </p>
+      <p><a class="link" href="/o-mnie/">Więcej o mnie</a></p>
+    </div>
+  </section>
+
+  <section class="block split">
+    <h2>Kontakt</h2>
+    <div class="split-body">
+      <p>
+        Masz rozwiązanie, pytanie albo znalazłeś błąd w zadaniu? Napisz:{" "}
+        <a class="link" href={`mailto:${site.email}`}>{site.email}</a>
+      </p>
+    </div>
+  </section>
+</Base>
