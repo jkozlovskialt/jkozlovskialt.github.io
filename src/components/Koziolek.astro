@@ -52,8 +52,8 @@
 </script>
 
 <style>
-  .goat { display: inline-block; line-height: 0; cursor: default; margin-bottom: 1.25rem; -webkit-tap-highlight-color: transparent; }
-  .goat svg { overflow: visible; width: 4.5rem; height: 4.5rem; }
+  .goat { display: inline-block; line-height: 0; cursor: default; margin-bottom: 1.75rem; -webkit-tap-highlight-color: transparent; }
+  .goat svg { overflow: visible; width: clamp(7rem, 22vw, 10rem); height: auto; }
   .goat-body { transform-box: fill-box; transform-origin: 50% 100%; }
   .goat-eye, .goat-pupil, .goat-ear { transform-box: fill-box; transform-origin: center; transition: transform 0.12s ease-out; }
   .goat-mouth, .goat-marks { opacity: 0; transition: opacity 0.1s ease-out; }
@@ -68,7 +68,7 @@
   @keyframes hop {
     0% { transform: none; }
     18% { transform: scale(1.08, 0.88); }
-    50% { transform: translateY(-18px) scale(0.95, 1.08) rotate(-4deg); }
+    50% { transform: translateY(-22%) scale(0.95, 1.08) rotate(-4deg); }
     78% { transform: scale(1.07, 0.92); }
     100% { transform: none; }
   }

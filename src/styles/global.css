@@ -188,3 +188,6 @@ h2 { font-family: var(--sans); font-weight: 700; font-size: 0.9375rem; line-heig
   .prose details { display: none; }
   .tasks h2 { break-after: avoid; }
 }
+
+/* Strona główna: „O mnie” pod koziołkiem */
+.home-about { margin-top: 2.5rem; }

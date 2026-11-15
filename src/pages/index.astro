@@ -1,44 +1,20 @@
 ---
 import Base from '../layouts/Base.astro';
-import ListaSerii from '../layouts/ListaSerii.astro';
-import { serie } from '../lib/serie';
-import { site } from '../site';
 import Koziolek from '../components/Koziolek.astro';
 import { Content as OMnie } from '../../tresc/o-mnie.md';
-const najnowsze = serie.slice(0, 5);
+import { site } from '../site';
 ---
 <Base>
   <section class="hero">
     <Koziolek />
-    <h1>Cześć, tu {site.name}. Układam serie zadań dla uczniów, którzy lubią pomyśleć nad jednym problemem trochę dłużej.</h1>
-    <p class="hero-lead">
-      Każda seria to kilka zadań wokół jednego pomysłu, ułożonych od rozgrzewki do czegoś
-      trudniejszego. Przy części zadań są wskazówki — zajrzyj do nich dopiero wtedy,
-      gdy naprawdę utkniesz.
-    </p>
-  </section>
-
-  <section class="block">
-    <div class="block-head">
-      <h2>Najnowsze serie</h2>
-      <a class="link" href="/zadania/">Wszystkie serie</a>
-    </div>
-    <ListaSerii serie={najnowsze} />
-  </section>
-
-  <section class="block split" id="o-mnie">
-    <h2>O mnie</h2>
-    <div class="prose">
+    <h1>O mnie</h1>
+    <div class="prose home-about">
       <OMnie />
-    </div>
-  </section>
 
-  <section class="block split">
-    <h2>Kontakt</h2>
-    <div class="split-body">
+      <h2>Kontakt</h2>
       <p>
         Masz rozwiązanie, pytanie albo znalazłeś błąd w zadaniu? Napisz:{" "}
-        <a class="link" href={`mailto:${site.email}`}>{site.email}</a>
+        <a href={`mailto:${site.email}`}>{site.email}</a>
       </p>
     </div>
   </section>
