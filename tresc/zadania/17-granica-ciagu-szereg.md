@@ -144,7 +144,7 @@ Określamy kwadraty $K_1, K_2, K_3,\ldots$ następująco:
 
 i ogólnie, dla każdej liczby naturalnej $n\ge2$, $K_n$ jest kwadratem, którego każdy wierzchołek leży na innym boku kwadratu $K_{n-1}$ i dzieli ten bok w stosunku $1:3$. Obwody wszystkich kwadratów określonych powyżej tworzą nieskończony ciąg geometryczny. Na rysunku przedstawiono kwadraty utworzone w sposób opisany powyżej.
 
-![Rysunek do zadania 12](/rysunki/s17-z12-1.svg)
+<img src="/rysunki/s17-z12-1.svg" alt="Rysunek do zadania 12" width="380">
 
 Oblicz sumę wszystkich wyrazów tego nieskończonego ciągu.
 

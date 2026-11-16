@@ -1,6 +1,6 @@
 ---
 numer: 20
-tytul: "Pochodna — monotoniczność, ekstrema, optymalizacja"
+tytul: "Pochodna — optymalizacja"
 opis: "Znak pochodnej i monotoniczność, ekstrema lokalne, największa i najmniejsza wartość oraz zadania optymalizacyjne z arkuszy."
 data: 2026-11-15
 poziom: "matura rozszerzona"
@@ -126,7 +126,7 @@ $f'(x)=3(x-1)(x+1)$: maksimum $f(-1)=4$, minimum $f(1)=0$.
 
 W projekcie ogrodu zaplanowano kwietnik w kształcie trójkąta równoramiennego o podstawie długości $x$ metrów nieprzekraczającej $10$ metrów. Na tym kwietniku ma znajdować się fontanna w kształcie koła o średnicy $4$ metrów, które ma być styczne do każdego z boków trójkątnego kwietnika (zobacz rysunek). Projektantowi zależy, aby przy tak ustalonej wielkości fontanny pole tego kwietnika było najmniejsze.
 
-![Rysunek do zadania 11](/rysunki/s20-z11-1.svg)
+<img src="/rysunki/s20-z11-1.svg" alt="Rysunek do zadania 11" width="380">
 
 a) Wykaż, że pole $P$ (wyrażone w metrach kwadratowych) trójkątnego kwietnika o podstawie długości $x$ metrów jest określone wzorem $P(x)=\dfrac{2x^{3}}{x^{2}-16}$.
 b) Pole $P$ trójkątnego kwietnika o podstawie długości $x$ metrów jest określone wzorem $P(x)=\dfrac{2x^{3}}{x^{2}-16}$ dla każdego $x\in(4,10\rangle$. Wyznacz długość $x$ podstawy trójkątnego kwietnika, dla której pole tego kwietnika jest najmniejsze. Oblicz to najmniejsze pole.
@@ -159,7 +159,7 @@ a) $81^{\log_3x}=x^4$, $\log_2\sqrt{27}\cdot\log_3 2=\frac32$. b) $f'(x)=2(x-1)\
 
 Parabola o równaniu $y=2-\frac12x^{2}$ przecina oś $Ox$ układu współrzędnych w punktach $A=(-2,0)$ i $B=(2,0)$. Rozpatrujemy wszystkie trapezy równoramienne $ABCD$, których dłuższą podstawą jest odcinek $AB$, a końce $C$ i $D$ krótszej podstawy leżą na paraboli (zobacz rysunek).
 
-![Rysunek do zadania 13](/rysunki/s20-z13-1.svg)
+<img src="/rysunki/s20-z13-1.svg" alt="Rysunek do zadania 13" width="380">
 
 Wyznacz pole trapezu $ABCD$ w zależności od pierwszej współrzędnej wierzchołka $C$. Oblicz współrzędne wierzchołka $C$ tego z rozpatrywanych trapezów, którego pole jest największe.
 

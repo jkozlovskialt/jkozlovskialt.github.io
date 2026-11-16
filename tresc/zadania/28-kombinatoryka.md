@@ -13,11 +13,11 @@ poziom: "matura rozszerzona"
 - **Reguła mnożenia.** Jeżeli wybór (doświadczenie) przebiega w $k$ etapach i w kolejnych etapach mamy odpowiednio $n_1, n_2, \ldots, n_k$ możliwości (niezależnie od tego, co wybraliśmy wcześniej), to wszystkich wyników jest $n_1\cdot n_2\cdot\ldots\cdot n_k$. **Spójnik „i” zamieniamy na mnożenie.** *Np. trzy rzuty monetą: $2\cdot2\cdot2=8$ wyników.*
 - **Reguła dodawania.** Jeżeli wyniki dzielą się na rozłączne przypadki, w których jest odpowiednio $m_1, m_2, \ldots, m_k$ wyników, to wszystkich jest $m_1+m_2+\ldots+m_k$. **Spójnik „lub” (rozłączne przypadki) zamieniamy na dodawanie.**
 - **Dopełnienie.** Liczba wyników „dobrych” $=$ liczba wszystkich wyników $-$ liczba wyników „złych”. Szczególnie przy *„co najmniej jeden”*: wszystkie $-$ „ani jednego”.
-- **Permutacje** (ustawienia $n$ różnych elementów w ciąg): $P_n=n!$. **Z powtórzeniami** (elementy powtarzają się $k_1,\ldots,k_m$ razy): $\tfrac{n!}{k_1!\cdot\ldots\cdot k_m!}$.
-- **Wariacje bez powtórzeń** ($k$-wyrazowe ciągi *różnych* elementów ze zbioru $n$-elementowego — kolejność ma znaczenie): $V_n^k=\tfrac{n!}{(n-k)!}=n(n-1)\ldots(n-k+1)$.
+- **Permutacje** (ustawienia $n$ różnych elementów w ciąg): $P_n=n!$. **Z powtórzeniami** (elementy powtarzają się $k_1,\ldots,k_m$ razy): $\frac{n!}{k_1!\cdot\ldots\cdot k_m!}$.
+- **Wariacje bez powtórzeń** ($k$-wyrazowe ciągi *różnych* elementów ze zbioru $n$-elementowego — kolejność ma znaczenie): $V_n^k=\frac{n!}{(n-k)!}=n(n-1)\ldots(n-k+1)$.
 - **Wariacje z powtórzeniami** ($k$-wyrazowe ciągi, elementy mogą się powtarzać): $W_n^k=n^k$.
-- **Kombinacje** ($k$-elementowe podzbiory zbioru $n$-elementowego — kolejność *nie* ma znaczenia): $C_n^k=\tbinom{n}{k}=\tfrac{n!}{k!\,(n-k)!}$. **Stosujemy, gdy wynikiem jest zbiór, a nie ciąg** (zamiana kolejności nie daje nowego wyniku): wybór osób do grupy bez funkcji, karty w ręce, losowanie kilku kul naraz, odcinki/trójkąty wyznaczone przez punkty, mecze „każdy z każdym”, wybór miejsc w ciągu.
-- **Kule i przegródki** (kombinacje z powtórzeniami; poza wymaganiami CKE, ale wygodne): $n$ jednakowych kul do $k$ ponumerowanych pudełek można rozłożyć na $\tbinom{n+k-1}{k-1}$ sposobów, a gdy żadne pudełko nie może być puste — na $\tbinom{n-1}{k-1}$ sposobów.
+- **Kombinacje** ($k$-elementowe podzbiory zbioru $n$-elementowego — kolejność *nie* ma znaczenia): $C_n^k=\binom{n}{k}=\frac{n!}{k!\,(n-k)!}$. **Stosujemy, gdy wynikiem jest zbiór, a nie ciąg** (zamiana kolejności nie daje nowego wyniku): wybór osób do grupy bez funkcji, karty w ręce, losowanie kilku kul naraz, odcinki/trójkąty wyznaczone przez punkty, mecze „każdy z każdym”, wybór miejsc w ciągu.
+- **Kule i przegródki** (kombinacje z powtórzeniami; poza wymaganiami CKE, ale wygodne): $n$ jednakowych kul do $k$ ponumerowanych pudełek można rozłożyć na $\binom{n+k-1}{k-1}$ sposobów, a gdy żadne pudełko nie może być puste — na $\binom{n-1}{k-1}$ sposobów.
 
 **Jak rozpoznać?** Czy kolejność ma znaczenie? *Tak* $\to$ permutacje / wariacje (ciągi), *nie* $\to$ kombinacje (podzbiory). Czy elementy mogą się powtarzać? *Tak* $\to$ $n^k$, *nie* $\to$ $\frac{n!}{(n-k)!}$ lub $\binom nk$.
 

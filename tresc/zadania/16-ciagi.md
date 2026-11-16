@@ -205,7 +205,12 @@ $b^2=ac\Rightarrow 2\log b=\log a+\log c$. ✓
 
 ## Zadanie 18
 
-O ciągu $(x_n)$ dla $n\geq1$ wiadomo, że: \begin{itemize}[nosep] \item[a)] ciąg $(a_n)$ określony wzorem $a_n=3^{x_n}$ dla $n\geq1$ jest geometryczny o ilorazie $q=27$, \item[b)] $x_1+x_2+\ldots+x_{10}=145$. \end{itemize} Oblicz $x_1$.
+O ciągu $(x_n)$ dla $n\geq1$ wiadomo, że:
+
+- ciąg $(a_n)$ określony wzorem $a_n=3^{x_n}$ dla $n\geq1$ jest geometryczny o ilorazie $q=27$,
+- $x_1+x_2+\ldots+x_{10}=145$.
+
+Oblicz $x_1$.
 
 *[matura PR, maj 2011, zad. 5]*
 

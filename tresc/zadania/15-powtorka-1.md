@@ -1,6 +1,6 @@
 ---
 numer: 15
-tytul: "Powtórka 1 — algebra, funkcje, trygonometria"
+tytul: "Powtórka 1 — algebra i funkcje"
 opis: "Seria mieszana w proporcjach arkusza: dowody, zadania z parametrem i pełne zadania otwarte z pierwszej połowy kursu."
 data: 2026-11-15
 poziom: "matura rozszerzona"

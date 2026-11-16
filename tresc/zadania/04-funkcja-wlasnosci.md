@@ -307,7 +307,7 @@ Dla $0<x_1<x_2$: $f(x_2)-f(x_1)=(x_2-x_1)\left(1+\tfrac{1}{x_1x_2}\right)>0$. �
 
 Rysunek przedstawia fragment wykresu funkcji $f(x)=\dfrac{1}{x^{2}}$. Przeprowadzono prostą równoległą do osi $Ox$, która przecięła wykres tej funkcji w punktach $A$ i $B$. Niech $C=(3,\,-1)$. Wykaż, że pole trójkąta $ABC$ jest większe lub równe $2$.
 
-![Rysunek do zadania 26](/rysunki/s04-z26-1.svg)
+<img src="/rysunki/s04-z26-1.svg" alt="Rysunek do zadania 26" width="380">
 
 *[matura PR, maj 2010, zad. 8]*
 

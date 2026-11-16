@@ -243,7 +243,7 @@ $|EF|=\frac{a+b}2$, oba trapezy mają wysokość $\frac h2$: $\dfrac{b+\frac{a+b
 
 Dany jest kwadrat $ABCD$ o boku długości $a$. Punkt $E$ jest środkiem boku $CD$. Przekątna $BD$ dzieli trójkąt $ACE$ na dwie figury: $AGF$ oraz $CEFG$ (zobacz rysunek).
 
-![Rysunek do zadania 20](/rysunki/s21-z20-1.svg)
+<img src="/rysunki/s21-z20-1.svg" alt="Rysunek do zadania 20" width="380">
 
 Oblicz pola figur $AGF$ oraz $CEFG$.
 
@@ -357,7 +357,7 @@ $|AS|=|AM|\cos\alpha$, $|DT|=|CN|\cos\alpha=|AS|$, więc $|ST|=|AD|-|AS|+|DT|=|A
 
 Dany jest trójkąt prostokątny $ABC$, w którym $|\sphericalangle ABC|=90^\circ$ oraz $|\sphericalangle CAB|=60^\circ$. Punkty $K$ i $L$ leżą na bokach – odpowiednio – $AB$ i $BC$ tak, że $|BK|=|BL|=1$ (zobacz rysunek). Odcinek $KL$ przecina wysokość $BD$ tego trójkąta w punkcie $N$, a ponadto $|AD|=2$. Wykaż, że $|ND|=\sqrt3+1$.
 
-![Rysunek do zadania 28](/rysunki/s21-z28-1.svg)
+<img src="/rysunki/s21-z28-1.svg" alt="Rysunek do zadania 28" width="250">
 
 *[matura PR, maj 2023, zad. 5]*
 
@@ -379,7 +379,7 @@ $|BN|=\frac{\sin45^\circ}{\sin105^\circ}=\sqrt3-1$, więc $|ND|=2\sqrt3-(\sqrt3-
 
 Na bokach $BC$ i $CD$ równoległoboku $ABCD$ zbudowano kwadraty $CDEF$ i $BCGH$ (zobacz rysunek). Udowodnij, że $|AC|=|FG|$.
 
-![Rysunek do zadania 29](/rysunki/s21-z29-1.svg)
+<img src="/rysunki/s21-z29-1.svg" alt="Rysunek do zadania 29" width="380">
 
 *[matura PR, maj 2010, zad. 9]*
 
@@ -401,7 +401,7 @@ $|CF|=|CD|=|AB|$, $|CG|=|CB|$, a $\angle FCG=360^\circ-90^\circ-90^\circ-\angle 
 
 Punkty $K$ i $L$ są środkami – odpowiednio – boków $AB$ i $BC$ kwadratu $ABCD$ o boku długości $a$. Punkt $M$ jest takim punktem na boku $BC$, że odcinki $DK$ i $KM$ są prostopadłe. Odcinek $AL$ przecina odcinki $DK$ oraz $DM$ w punktach – odpowiednio – $P$ oraz $Q$ (zobacz rysunek). Wykaż, że $|PQ|=\frac{\sqrt5}5a$.
 
-![Rysunek do zadania 30](/rysunki/s21-z30-1.svg)
+<img src="/rysunki/s21-z30-1.svg" alt="Rysunek do zadania 30" width="380">
 
 *[matura PR, maj 2026, zad. 4]*
 

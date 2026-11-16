@@ -126,7 +126,7 @@ $g(x)=f(-(x-4))$: symetria względem $Oy$, potem przesunięcie o $[4,0]$; $D=(-\
 
 Na rysunku przedstawiono fragment wykresu funkcji $y=f(x)$, który jest złożony z dwóch półprostych $AD$ i $CE$ oraz dwóch odcinków $AB$ i $BC$, gdzie $A=(-1,\,0)$, $B=(1,\,2)$, $C=(3,\,0)$, $D=(-4,\,3)$, $E=(6,\,3)$. Zapisz wzór funkcji $f$ za pomocą wartości bezwzględnej.
 
-![Rysunek do zadania 11](/rysunki/s05-z11-1.svg)
+<img src="/rysunki/s05-z11-1.svg" alt="Rysunek do zadania 11" width="380">
 
 *[matura PR, maj 2019, zad. 3 — oryginalnie zadanie zamknięte]*
 

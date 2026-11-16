@@ -314,9 +314,9 @@ $5n+10=5(n+2)$; $4n+6=2(2n+3)$, czynnik $2n+3$ nieparzysty.
 
 </details>
 
-## Zadanie 24
+## Zadanie 24 (□)
 
-\typowe Uzasadnij, że dla każdej liczby całkowitej $k$ liczba $k^6 - 2k^4 + k^2$ jest podzielna przez 36.
+Uzasadnij, że dla każdej liczby całkowitej $k$ liczba $k^6 - 2k^4 + k^2$ jest podzielna przez 36.
 
 *[matura PR, maj 2011, zad. 1]*
 

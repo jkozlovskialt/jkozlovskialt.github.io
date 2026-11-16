@@ -1,6 +1,6 @@
 ---
 numer: 11
-tytul: "Równania i nierówności wykładnicze i logarytmiczne"
+tytul: "Równania wykładnicze i logarytmiczne"
 opis: "Wspólna podstawa, podstawienie, dziedzina przy logarytmach, nierówności i zadania z parametrem."
 data: 2026-11-15
 poziom: "matura rozszerzona"

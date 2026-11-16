@@ -217,7 +217,7 @@ $h=\sqrt{ab}$ (jak wyżej), $P=\frac{a+b}2\sqrt{ab}>\sqrt{ab}\cdot\sqrt{ab}=ab$,
 
 Dany jest prostokąt $ABCD$. Okrąg wpisany w trójkąt $BCD$ jest styczny do przekątnej $BD$ w punkcie $N$. Okrąg wpisany w trójkąt $ABD$ jest styczny do boku $AD$ w punkcie $M$, a środek $S$ tego okręgu leży na odcinku $MN$, jak na rysunku. Wykaż, że $|MN|=|AD|$.
 
-![Rysunek do zadania 18](/rysunki/s22-z18-1.svg)
+<img src="/rysunki/s22-z18-1.svg" alt="Rysunek do zadania 18" width="380">
 
 *[matura PR, maj 2016, zad. 9]*
 
@@ -311,7 +311,7 @@ $|AC|=2R\sin120^\circ$, $R=2\sqrt3$.
 
 Dwusieczne czworokąta $ABCD$ wpisanego w okrąg przecinają się w czterech różnych punktach: $P$, $Q$, $R$, $S$ (zobacz rysunek). Wykaż, że na czworokącie $PQRS$ można opisać okrąg.
 
-![Rysunek do zadania 26](/rysunki/s22-z26-1.svg)
+<img src="/rysunki/s22-z26-1.svg" alt="Rysunek do zadania 26" width="350">
 
 *[matura PR, maj 2015, zad. 9]*
 
@@ -333,7 +333,7 @@ Kąt przy wierzchołku utworzonym przez dwusieczne kątów $A$ i $B$ ma miarę $
 
 Dany jest okrąg $\mathcal{O}$. Przez punkt $A$ poprowadzono dwie proste, które są styczne do tego okręgu w punktach – odpowiednio – $P$ oraz $Q$. Przez punkt $B$ leżący na odcinku $AP$ poprowadzono styczną do tego okręgu w punkcie $D$, która przecięła odcinek $AQ$ w punkcie $C$ (zobacz rysunek). Wykaż, że jeżeli $|AQ|=5\cdot|BP|$ oraz $|CD|=2\cdot|BD|$, to trójkąt $ABC$ jest równoramienny.
 
-![Rysunek do zadania 27](/rysunki/s22-z27-1.svg)
+<img src="/rysunki/s22-z27-1.svg" alt="Rysunek do zadania 27" width="380">
 
 *[matura PR, czerwiec 2023, zad. 6]*
 

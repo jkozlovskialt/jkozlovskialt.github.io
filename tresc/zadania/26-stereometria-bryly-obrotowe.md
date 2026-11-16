@@ -1,6 +1,6 @@
 ---
 numer: 26
-tytul: "Stereometria — bryły obrotowe, przekroje, optymalizacja"
+tytul: "Stereometria — bryły obrotowe"
 opis: "Walec, stożek i kula, bryły wpisane i opisane, przekroje oraz zadania optymalizacyjne w stereometrii (powrót pochodnej)."
 data: 2026-11-15
 poziom: "matura rozszerzona"

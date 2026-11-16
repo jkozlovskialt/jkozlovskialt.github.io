@@ -1,6 +1,6 @@
 ---
 numer: 23
-tytul: "Geometria analityczna — punkty, proste, wielokąty"
+tytul: "Geometria analityczna — proste"
 opis: "Odległości, równania prostych, prostopadłość i równoległość, odległość punktu od prostej, pola wielokątów i symetrie."
 data: 2026-11-15
 poziom: "matura rozszerzona"

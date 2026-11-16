@@ -119,7 +119,7 @@ a) $x\in\{-2,-1,1,2\}$; b) $x=4$ lub $x=9$.
 
 W schronisku dla zwierząt, na płaskiej powierzchni, należy zbudować ogrodzenie z siatki wydzielające trzy identyczne wybiegi o wspólnych ścianach wewnętrznych. Podstawą każdego z tych trzech wybiegów jest prostokąt o wymiarach $x$ i $y$ (zobacz rysunek). Do wykonania tego ogrodzenia należy zużyć $36$ metrów bieżących siatki. Oblicz wymiary $x$ oraz $y$ jednego wybiegu, przy których suma pól podstaw tych trzech wybiegów będzie największa. W obliczeniach pomiń szerokość wejścia na każdy z wybiegów.
 
-![Rysunek do zadania 10](/rysunki/s07-z10-1.svg)
+<img src="/rysunki/s07-z10-1.svg" alt="Rysunek do zadania 10" width="380">
 
 *[matura PP, maj 2024, zad. 31]*
 

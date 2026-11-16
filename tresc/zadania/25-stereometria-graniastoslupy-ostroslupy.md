@@ -1,6 +1,6 @@
 ---
 numer: 25
-tytul: "Stereometria — graniastosłupy i ostrosłupy"
+tytul: "Stereometria — wielościany"
 opis: "Kąt między prostą a płaszczyzną, kąt dwuścienny, trygonometria w bryłach, pola i objętości graniastosłupów i ostrosłupów."
 data: 2026-11-15
 poziom: "matura rozszerzona"
@@ -126,7 +126,7 @@ Spodek wysokości to środek prostokąta: $H=\sqrt{169-25}=12$, $V=192$.
 
 Dany jest sześcian $ABCDEFGH$ o krawędzi długości $6$. Punkt $S$ jest punktem przecięcia przekątnych $AH$ i $DE$ ściany bocznej $ADHE$ (zobacz rysunek). Oblicz wysokość trójkąta $SBH$ poprowadzoną z punktu $S$ na bok $BH$ tego trójkąta.
 
-![Rysunek do zadania 11](/rysunki/s25-z11-1.svg)
+<img src="/rysunki/s25-z11-1.svg" alt="Rysunek do zadania 11" width="380">
 
 *[matura PR, maj 2023, zad. 7]*
 

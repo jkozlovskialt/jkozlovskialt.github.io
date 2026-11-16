@@ -161,7 +161,7 @@ $b=\frac19m_0$, $a=\frac89m_0$; warunek $m(t)=\frac18m_0$ daje $2^{-0{,}05t}=\fr
 
 Na rysunku przedstawiony jest fragment wykresu funkcji logarytmicznej $f$ określonej wzorem $f(x)=\log_2(x+p)$.
 
-![Rysunek do zadania 13](/rysunki/s10-z13-1.svg)
+<img src="/rysunki/s10-z13-1.svg" alt="Rysunek do zadania 13" width="380">
 
 a) Podaj wartość $p$.
 b) Narysuj wykres funkcji określonej wzorem $y=\left|f(x)\right|$.

@@ -1,6 +1,6 @@
 ---
 numer: 14
-tytul: "Równania i nierówności trygonometryczne"
+tytul: "Równania trygonometryczne"
 opis: "Od równań elementarnych po pełne zadania maturalne z przedziałem."
 data: 2026-11-15
 poziom: "matura rozszerzona"

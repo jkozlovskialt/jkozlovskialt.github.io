@@ -1,6 +1,6 @@
 ---
 numer: 12
-tytul: "Trygonometria — funkcje trygonometryczne"
+tytul: "Trygonometria — funkcje"
 opis: "Kąt dowolny, miara łukowa, wykresy, okresowość i jedynka trygonometryczna."
 data: 2026-11-15
 poziom: "matura rozszerzona"
